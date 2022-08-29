@@ -1,0 +1,21 @@
+s {
+    color: #999;
+    font-size: 20px;
+}
+
+.container-fluid {
+    display: flex;
+    align-content: center;
+    background-color: #f0f2f0;
+}
+
+.wrapper {
+   background-color: #fff;
+    margin: 10%;
+    padding: 15px 0;
+
+}
+.col-lg-6{width: 40rem;}
+img{
+    width:40rem;
+}

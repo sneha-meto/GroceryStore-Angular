@@ -1,0 +1,26 @@
+img{   
+    height: 175px;
+    object-fit: cover;}
+    .card{ width: 250px;}
+
+    .wrapper{
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .card{
+        margin:0.5rem;
+    }
+    .card-desc{
+        font-weight: 500;
+        font-size: 1.25rem;
+
+    }
+
+    s{
+        color:#999;
+        font-size: 1rem;
+    }
+    /* .btn{
+        width: 6rem;
+    } */

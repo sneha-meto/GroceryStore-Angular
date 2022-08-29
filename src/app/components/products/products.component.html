@@ -1,0 +1,20 @@
+<br>
+<h2>All Products</h2>
+<div class="wrapper">
+ 
+    <div class="card" *ngFor="let pdt of products">
+        <img src={{baseUrl+pdt.image}} alt="">
+
+        <div class="card-body">
+<div class="card-title">{{pdt.productName}}</div>
+<div class="card-desc">{{pdt.price | currency :"INR" }} 
+    <s>{{pdt.mrp | currency :"INR"}}</s>
+    
+    
+    <button class="btn btn-success btn-block" (click)="goToDetail(pdt._id)" >View Details</button></div>
+
+        </div>
+        
+
+    </div>
+</div>

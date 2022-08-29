@@ -1,0 +1,20 @@
+a>div>img{
+    width: 250px;
+    height: 175px;
+    object-fit: cover;
+   
+}
+a:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+a{ transition: transform .2s;}
+
+
+a{
+    text-align: center;
+}
+
+.categories{
+    text-align: center;
+}

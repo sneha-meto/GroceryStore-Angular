@@ -1,0 +1,8 @@
+<ul class="nav flex-column nav-pills ">
+ 
+    <li class="nav-item" *ngFor="let subcat of subCategories">
+      <a class="nav-link " routerLink="{{'/products/sub/'+subcat.subId}}">{{subcat.subName}}</a>
+      <hr>
+    </li>
+
+  </ul>
